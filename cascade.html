@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRODUCTION TO CSS - BLAZING MINDS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+    <link rel="icon" href="https://img.freepik.com/premium-vector/silhouette-graduation-symbol-graduate-male-female-certificate-graduation-elements-template_608010-237.jpg?w=2000" type="image/icon type">
+</head>
+<body style="background-color: black; padding: 0 95px 15% 95px ;">
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="home.html" class="logo" style="color: aqua;"> <i class="fas fa-graduation-cap"></i>BLAZING MINDS</a>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="#">COURSES</a>
+                    <ul>
+                        <li><a href="course1.html">COURSE 01</a></li>
+                        <li><a href="course2.html">COURSE 02</a></li>
+                        <li><a href="course3.html">COURSE 03</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">PAGES</a>
+                    <ul>
+                        <li><a href="ourteam.html">ABOUT US</a></li>
+                        <li><a href="blog.html">BLOGS</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="landingpage.html"> <i class="fa-solid fa-right-from-bracket" style="color: aqua;"></i> </a> </li>
+            </ul>
+        </nav>
+
+    </header>
+    <h2 style="border-style: solid; border-radius: 45px; border-color: #1cb45b; padding: 0; margin-top: 5%;">What Is Cascading Style Sheets (CSS)?</h2>
+    <br>
+    <img src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901769.jpg?w=996&amp;t=st=1670639400~exp=1670640000~hmac=a2066047e274de0acc76b4cf20ac9c275a8e45c84998e0d20fd5e60f5f129618" width="45%" height="45%" style="margin-right: 50px; float: left;">
+    <img src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901770.jpg" width="45%" height="45%" style="margin-right: 50px; float: left; margin-bottom: 5%;">
+    <br>
+    <p>A stylesheet language called Cascading Style Sheets (CSS) is used to describe how a document written in HTML or XML is presented (including XML dialects such as SVG, MathML or XHTML). CSS specifies how items should be shown in various media, including speech, paper, screens, and other media. According to W3C specifications, CSS is one of the fundamental languages of the open web and is standardized across Web browsers. In the past, different CSS standard components were developed simultaneously, allowing for the versioning of the most recent recommendations. Perhaps you are familiar with CSS1, CSS2.1, or perhaps CSS3. There will never be a CSS3 or CSS4, and instead, everything is CSS right now.</p>
+    <br>
+    <p>CSS, or Cascading Style Sheets, is a simple design language designed to make the process of making web pages presentable easier. CSS is in charge of a web page's appearance and feel. CSS allows you to control the color of the text, font style, paragraph spacing, how columns are sized and laid out, what background images or colors are used, layout designs, display variations for different devices and screen sizes, and a variety of other effects.</p>
+    <br>
+<p>CSS is simple to learn and understand, but it gives you a lot of power over how an HTML document looks. CSS is most commonly used in conjunction with the markup languages HTML or XHTML.</p>
+<br>
+<img src="https://img.freepik.com/free-photo/computer-program-coding-screen_53876-138060.jpg?w=996&amp;t=st=1670639914~exp=1670640514~hmac=a7ca3117bfa5412025b9ef2fb995ff10708dcd83726ee592c460d63fc8e07678" width="45%" height="45%" style="float: left; margin-right: 35px; margin-top: 5%;">
+<br>
+<h3 style="margin-top: 3%;"><center>ADVANTAGES OF CSS</center></h3>
+<ul>
+    <li><strong style="color: peru; font-size: 20px;">CSS saves time −</strong> CSS can be written once and then reused in multiple HTML pages. You can define a style for each HTML element and apply it to an unlimited number of Web pages.</li>
+    <li><strong style="color: peru; font-size: 20px;">Pages load faster −</strong> You don't have to write HTML tag attributes every time you use CSS. Simply create a CSS rule for a tag and apply it to all occurrences of that tag. As a result, less code means faster download times.</li>
+    <li><strong style="color: peru; font-size: 20px;">Easy maintenance −</strong> Simply change the style to make a global change, and all elements in all web pages will be automatically updated.</li>
+    <li><strong style="color: peru; font-size: 20px;">Superior styles to HTML −</strong> CSS has a much wider array of attributes than HTML, so you can give a far better look to your HTML page in comparison to HTML attributes.</li>
+    <li><strong style="color: peru; font-size: 20px;">Multiple Device Compatibility −</strong> Style sheets allow content to be optimized for more than one type of device. By using the same HTML document, different versions of a website can be presented for handheld devices such as PDAs and cell phones or for printing.</li>
+    <li><strong style="color: peru; font-size: 20px;">Global web standards −</strong> HTML attributes are now overwritten, and CSS is recommended instead. As a result, it is a good idea to begin using CSS in all HTML pages in order to make them compatible with future browsers.</li>
+</ul>
+<br>
+<br>
+<center><h3 style="border-style: solid; border-radius: 45px; border-color: #1cb45b; padding: 0; margin-top: 5%;">Who Creates and Maintains CSS?</h3></center>
+<br>
+<p>CSS is created and maintained by the CSS Working Group, which is part of the W3C. The CSS Working Group creates specifications, which are documents. A specification becomes a recommendation after it has been discussed and officially ratified by W3C members.  Because the W3C has no control over the actual implementation of the language, these ratified specifications are referred to as recommendations. That software is developed by independent companies and organizations. </p>
+<br>
+<p>NOTE: The World Wide Web Consortium, or W3C, is an organization that makes recommendations on how the Internet should function and evolve.</p>
+<br>
+<img src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901770.jpg" width="45%" height="100%" style="float: right; margin-left: 35px; margin-top: 5%;">
+<br>
+<h3 style="margin-top: 3%;"><center>CSS versions</center></h3>
+<p>CSS (Cascading Style Sheet) is a separate language with its own syntax that allows you to layout web pages exactly how you want them. HTML evolved to include a broader range of stylistic capabilities to meet the needs of web programmers. Cascading Style Sheets was ready to become official by the end of 1996, and the CSS Level 1 Recommendation, which is considered the first version of CSS, was published in December. Each CSS level builds on the previous one, typically adding new features, and is denoted as CSS level 1, CSS level 2, CSS level 3, and CSS level 4.</p>
+<br>
+<br>
+<center><h3 style="border-style: solid; border-radius: 45px; border-color: #1cb45b; padding: 0; margin-top: 5%;">Cascading Style Sheet (CSS) 1</h3></center>
+<br>
+<p>In December 1996, the W3C issued a recommendation for Cascading Style Sheets level 1 (CSS1). This version introduces the CSS language as well as a straightforward visual formatting model for all HTML tags. CSS2 was approved as a W3C recommendation in May 1998, and it expands on CSS1. This release includes support for media-specific style sheets, such as printers and audio devices, as well as downloadable fonts, element positioning, and tables.</p>
+<center><h3 style="border-style: solid; border-radius: 45px; border-color: #1cb45b; padding: 0; margin-top: 5%;">Cascading Style Sheet (CSS) 2</h3></center>
+<br>
+<p>The W3C created the CSS level 2 (CSS2) specification, which was published as a recommendation in 1998. Its most notable addition was the addition of positioning properties, which allowed CSS to be used for page layout. It also introduced styles for other media types as well as more sophisticated methods for selecting styling elements.</p>
+<br>
+<center><h3 style="border-style: solid; border-radius: 45px; border-color: #1cb45b; padding: 0; margin-top: 5%;">Cascading Style Sheet (CSS) 3</h3></center>
+<br>
+<p>CSS level 3 (CSS3) drafts were first published in 1999. CSS3 introduces presentation-style properties, allowing you to create presentations from Web documents. CSS level 3 is divided into separate documents known as modules. Because of the modularization, different modules have varying levels of stability and status.</p>
+<center><h3 style="border-style: solid; border-radius: 45px; border-color: #1cb45b; padding: 0; margin-top: 5%;">Cascading Style Sheet (CSS) 4</h3></center>
+<br>
+<p>There is no single CSS4 specification, nor is there a CSS4 standard. However, there are a few level 4 modules that build on the functionality of a preceding level 3 module, such as Image Values, Backgrounds & Borders, or Selectors, for example. CSS level 4 refers to all of the level 4 modules combined. There is only one CSS standard, and each module can level up on its own.</p>
+<br>
+<center><img src="https://as1.ftcdn.net/v2/jpg/03/59/57/32/1000_F_359573266_vBr0FmOVW1XBcJYR1vjTiMNd4QxcGfV1.jpg" width="50%" height="50%" style="margin-top: 5%;"></center>
+<br>
+<br>
+<h2 style="border-style: solid; border-radius: 45px; border-color: #1cb45b; padding: 0; margin-top: 5%; text-transform: uppercase; font-size: 35px;">Useful CSS tags and their attributes</h2>
+<br>
+<br>
+<table class="content-table">
+<thead>
+    <tr>
+        <th style="background-color: peru;">CSS PROPERTIES</th>
+        <th style="background-color: aqua;">DESCRIPTION</th>
+        <th style="background-color: peru;">CSS PROPERTIES</th>
+        <th style="background-color: aqua;">DESCRIPTION</th>
+        <th style="background-color: peru;">CSS PROPERTIES</th>
+        <th style="background-color: aqua;">DESCRIPTION</th>
+    </tr> 
+    </thead>
+    <tbody>
+        <tr>
+            <td>align-content</td>
+            <td>Specifies the alignment of flexible container's items within the flex container.</td>
+            <td>align-items</td>
+            <td>Specifies the default alignment for items within the flex container.</td>
+            <td>animation-duration</td>
+            <td>Specifies the number of seconds or milliseconds an animation should take to complete one cycle.</td>
+        </tr>
+        <tr>
+            <td>align-self</td>
+            <td>Specifies the alignment for selected items within the flex container.</td>
+            <td>animation </td>
+            <td>Specifies the keyframe-based animations.</td>
+            <td>animation-fill-mode</td>
+            <td>Specifies how a CSS animation should apply styles to its target before and after it is executing.</td>
+
+        </tr>
+        <tr>
+            <td>animation-delay</td>
+            <td>Specifies when the animation will start.</td>
+            <td>animation-direction</td>
+            <td>Specifies whether the animation should play in reverse on alternate cycles or not.</td>
+            <td>animation-iteration-count</td>
+            <td>Specifies the number of times an animation cycle should be played before stopping.</td>
+
+        </tr>
+        <tr>
+            <td>animation-name</td>
+            <td>Specifies the name of @keyframes defined animations that should be applied to the selected element.</td>
+            <td>animation-play-state</td>
+            <td>Specifies whether the animation is running or paused.</td>
+            <td>animation-timing-function</td>
+            <td>Specifies how a CSS animation should progress over the duration of each cycle.</td>
+        </tr>
+        <tr>
+            <td>backface-visibility</td>
+            <td>Specifies whether or not the "back" side of a transformed element is visible when facing the user.</td>
+            <td>background</td>
+            <td>Defines a variety of background properties within one declaration.</td>
+            <td>background-attachment</td>
+            <td>Specify whether the background image is fixed in the viewport or scrolls.</td>
+        </tr>
+        <tr>
+            <td>background-clip</td>
+            <td>Specifies the painting area of the background.</td>
+            <td>background-color</td>
+            <td>Defines an element's background color.</td>
+            <td>background-image</td>
+            <td>Defines an element's background image.</td>
+        </tr>
+        <tr>
+            <td>background-origin</td>
+            <td>Specifies the positioning area of the background images.</td>
+            <td>background-position</td>
+            <td>Defines the origin of a background image.</td>
+            <td>background-repeat</td>
+            <td>Specify whether/how the background image is tiled.</td>
+        </tr>
+        <tr>
+            <td>background-size</td>
+            <td>Specifies the size of the background images.</td>
+            <td>border</td>
+            <td>Sets the width, style, and color for all four sides of an element's border.</td>
+            <td>border-bottom</td>
+            <td>Sets the width, style, and color of the bottom border of an element.</td>
+        </tr>
+        <tr>
+            <td>border-bottom-color</td>
+            <td>Sets the color of the bottom border of an element.</td>
+            <td>border-bottom-left-radius</td>
+            <td>Defines the shape of the bottom-left border corner of an element.</td>
+            <td>border-bottom-right-radius</td>
+            <td>Defines the shape of the bottom-right border corner of an element.</td>
+        </tr>
+        <tr>
+            <td>border-bottom-style</td>
+            <td>Sets the style of the bottom border of an element.</td>
+            <td>border-bottom-width</td>
+            <td>Sets the width of the bottom border of an element.</td>
+            <td>border-collapse</td>
+            <td>Specifies whether table cell borders are connected or separated.</td>
+        </tr>
+        <tr>
+            <td>border-color</td>
+            <td>Sets the color of the border on all the four sides of an element.</td>
+            <td>border-image</td>
+            <td>Specifies how an image is to be used in place of the border styles.</td>
+            <td>border-image-outset</td>
+            <td>Specifies the amount by which the border image area extends beyond the border box.</td>
+        </tr>
+        <tr>
+            <td>border-image-repeat</td>
+            <td>Specifies whether the image-border should be repeated, rounded or stretched.</td>
+            <td>border-image-slice</td>
+            <td>Specifies the inward offsets of the image-border.</td>
+            <td>border-image-source</td>
+            <td>Specifies the location of the image to be used as a border.</td>
+        </tr>
+        <tr>
+            <td>border-image-width </td>
+            <td>Specifies the width of the image-border.</td>
+            <td>border-left</td>
+            <td>Sets the width, style, and color of the left border of an element.</td>
+            <td>border-left-color</td>
+            <td>Sets the color of the left border of an element.</td>
+        </tr>
+        <tr>
+            <td>border-left-style</td>
+            <td>Sets the style of the left border of an element.</td>
+            <td>border-left-width</td>
+            <td>Sets the width of the left border of an element.</td>
+            <td>border-radius</td>
+            <td>Defines the shape of the border corners of an element.</td>
+        </tr>
+        <tr>
+            <td>border-right</td>
+            <td>Sets the width, style, and color of the right border of an element.</td>
+            <td>border-right-color</td>
+            <td>Sets the color of the right border of an element.</td>
+            <td>border-right-style</td>
+            <td>Sets the style of the right border of an element.</td>
+        </tr>
+        <tr>
+            <td>border-right-width</td>
+            <td>Sets the width of the right border of an element.</td>
+            <td>border-spacing</td>
+            <td>Sets the spacing between the borders of adjacent table cells.</td>
+            <td>border-style</td>
+            <td>Sets the style of the border on all the four sides of an element.</td>
+        </tr>
+        <tr>
+            <td>border-top</td>
+            <td>Sets the width, style, and color of the top border of an element.</td>
+            <td>border-top-color</td>
+            <td>Sets the color of the top border of an element.</td>
+            <td>border-top-left-radius</td>
+            <td>Defines the shape of the top-left border corner of an element.</td>
+        </tr>
+        <tr>
+            <td>border-top-right-radius</td>
+            <td>Defines the shape of the top-right border corner of an element.</td>
+            <td>border-top-style</td>
+            <td>Sets the style of the top border of an element.</td>
+            <td>border-top-width</td>
+            <td>Sets the width of the top border of an element.</td>
+        </tr>
+        <tr>
+            <td>border-width</td>
+            <td>Sets the width of the border on all the four sides of an element.</td>
+            <td>bottom</td>
+            <td>Specify the location of the bottom edge of the positioned element.</td>
+            <td>box-shadow</td>
+            <td>Applies one or more drop-shadows to the element's box.</td>
+        </tr>
+        <tr>
+            <td>box-sizing</td>
+            <td>Alter the default CSS box model.</td>
+            <td>caption-side</td>
+            <td>Specify the position of table's caption.</td>
+            <td>clear</td>
+            <td>Specifies the placement of an element in relation to floating elements.</td>
+        </tr>
+        <tr>
+            <td>clip</td>
+            <td>Defines the clipping region.</td>
+            <td>color</td>
+            <td>Specify the color of the text of an element.</td>
+            <td>column-count</td>
+            <td>Specifies the number of columns in a multi-column element.</td>
+        </tr>
+        <tr>
+            <td>column-fill</td>
+            <td>Specifies how columns will be filled.</td>
+            <td>column-gap</td>
+            <td>Specifies the gap between the columns in a multi-column element.</td>
+            <td>column-rule</td>
+            <td>Specifies a straight line, or "rule", to be drawn between each column in a multi-column element.</td>
+        </tr>
+        <tr>
+            <td>column-rule-color</td>
+            <td>Specifies the color of the rules drawn between columns in a multi-column layout.</td>
+            <td>column-rule-style</td>
+            <td>Specifies the style of the rule drawn between the columns in a multi-column layout.</td>
+            <td>column-rule-width</td>
+            <td>Specifies the width of the rule drawn between the columns in a multi-column layout.</td>
+        </tr>
+        <tr>
+            <td>column-span</td>
+            <td>Specifies how many columns an element spans across in a multi-column layout.</td>
+            <td>column-width</td>
+            <td>Specifies the optimal width of the columns in a multi-column element.</td>
+            <td>columns</td>
+            <td>A shorthand property for setting column-width and column-count properties.</td>
+        </tr>
+        <tr>
+            <td>content</td>
+            <td>Inserts generated content.</td>
+            <td>counter-increment</td>
+            <td>Increments one or more counter values.</td>
+            <td>counter-reset</td>
+            <td>Creates or resets one or more counters.</td>
+        </tr>
+        <tr>
+            <td>cursor</td>
+            <td>Specify the type of cursor.</td>
+            <td>direction</td>
+            <td>Define the text direction/writing direction.</td>
+            <td>display</td>
+            <td>Specifies how an element is displayed onscreen.</td>
+        </tr>
+        <tr>
+            <td>empty-cells</td>
+            <td>Show or hide borders and backgrounds of empty table cells.</td>
+            <td>flex</td>
+            <td>Specifies the components of a flexible length.</td>
+            <td>flex-basis</td>
+            <td>	Specifies the initial main size of the flex item.</td>
+        </tr>
+        <tr>
+            <td>flex-direction</td>
+            <td>Specifies the direction of the flexible items.</td>
+            <td>flex-flow</td>
+            <td>A shorthand property for the flex-direction and the flex-wrap properties.</td>
+            <td>flex-grow</td>
+            <td>Specifies how the flex item will grow relative to the other items inside the flex container.</td>
+        </tr>
